@@ -1,0 +1,39 @@
+.js .laptop-slider{
+    overflow: hidden;
+    color: white;
+    
+}
+
+.js .laptop-slider .slideshow{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    max-width: 950px;
+    display: block;
+}
+.js .laptop-slider figure{
+    opacity: 0;
+    transform: 1s opacity;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.js .laptop-slider figure.show{
+    opacity: 1;
+    position: static;
+    width: 95%;
+    
+}
+.js .laptop-slider .prev, .js .laptop-slider .next{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.js .laptop-slider .prev{
+    margin-left: 0px
+}
+.js .laptop-slider .next{
+    right: 0px
+}
